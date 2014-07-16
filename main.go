@@ -1,12 +1,12 @@
 package noughtscrosses
 import(
-	"net/http"
-	"log"
-	"fmt"
+    "net/http"
+    "log"
+    "fmt"
     "bytes"
     "time"
-	"encoding/json"
-	"html/template"
+    "encoding/json"
+    "html/template"
     "strconv"
     "strings"
     "appengine"
@@ -129,7 +129,6 @@ func maximizeGame(game []byte) (max []byte){
             // next was larger
             copy(max,next)
             // use to be curious as to which transformation
-            //which = i 
         }
     }
     return
