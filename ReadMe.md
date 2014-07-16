@@ -1,6 +1,8 @@
 Noughts and Crosses - Dumb AI
 =========
 
+[![Build Status](https://travis-ci.org/dmadisetti/noughtscrosses.png)](https://travis-ci.org/dmadisetti/noughtscrosses)
+
 Hacked together for kicks.
 
 This simple project plays tictactoe. Starts off very dumb and progressivly gets better. After game 150, seemed to deterministically draw. Cool stuff. I'm sure there's some fancy math involving minimum number of games to fatalistic dataset, but I'll leave that to the curious. Objectives complete!
