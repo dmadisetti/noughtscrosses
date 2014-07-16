@@ -37,7 +37,7 @@ func init(){
 
 func mainHandle(w http.ResponseWriter, r *http.Request){
     c := appengine.NewContext(r)
-    t, e := template.ParseGlob("templates/index.html")
+    t, e := template.ParseGlob("templates/the.html")
     if e != nil {
         fmt.Fprint(w, e)        
         return

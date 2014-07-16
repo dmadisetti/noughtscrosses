@@ -1,3 +1,5 @@
+static/packages/
 *.js
 *.deps
 *.map
+*.lock

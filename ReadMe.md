@@ -11,7 +11,7 @@ This simple project plays tictactoe. Starts off very dumb and progressivly gets 
 
 Build yon Dart.
 ---
-`dart2js the.dart -o the.js`
+Make sure to `pub get` before you do anything. When you're ready to build, `dart2js the.dart -o the.js`
 
 Building for yourself?
 ---

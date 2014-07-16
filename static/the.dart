@@ -2,6 +2,7 @@ import 'dart:html';
 import 'dart:async';
 import 'dart:collection';
 import 'dart:convert';
+import 'package:polymer/init.dart';
 
 abstract class Player {
 
@@ -117,9 +118,8 @@ class Board<Square> extends ListBase<Square> {
 
     markDone(message){
         for(var done in l){
-            l[i].die();
+            done.die();
         }
-        alert(message);
     }
 
     add(square){
@@ -131,6 +131,7 @@ class Board<Square> extends ListBase<Square> {
         this.human.move(square.i);
     }
 }
+
 
 main() {
     var human  = new Human('x');
