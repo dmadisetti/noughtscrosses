@@ -9,7 +9,7 @@ Build yon Dart.
 ---
 `dart2js the.dart -o the.js`
 
-(See the project in action)[http://nought-crosses.appspot.com/]
+[See the project in action][http://nought-crosses.appspot.com/]
 
 Objectives:
 
@@ -28,5 +28,4 @@ Todo:
 To-maybe-do:
 
 - Prevent Dart interaction between requests.
-- Prevent forged games that could essentially corrupt the integrity of the dataset.
 - Style UI

@@ -301,6 +301,10 @@ func postHandle(w http.ResponseWriter, r *http.Request){
 
     // Get game and set most recent move.
     game,data := getGame(c,token)
+    if data[m.Move] != 0x0 {
+        // Return silently. Forged request.
+        return
+    } 
     data[m.Move] = 0x2
 
     // Out of scope
