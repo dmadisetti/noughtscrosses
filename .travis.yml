@@ -3,6 +3,6 @@ python:
   - "2.7"
 # command to install dependencies
 install:
-  - curl -O http://googleappengine.googlecode.com/files/google_appengine_1.8.9.zip && unzip -q google_appengine_1.8.9.zip
+  - curl -O https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_386-1.9.6.zip && unzip -q go_appengine_sdk_linux_386-1.9.6.zip
 # command to run tests
-script: echo "n" | python google_appengine/dev_appserver.py .
+script: echo "n" | python go_appengine/dev_appserver.py .
