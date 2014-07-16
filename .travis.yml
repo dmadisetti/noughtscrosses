@@ -4,6 +4,7 @@ go:
 # command to install dependencies
 install:
   - curl -O https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_linux_386-1.9.6.zip && unzip -q go_appengine_sdk_linux_386-1.9.6.zip
+  - ls
 # command to run tests
-# script: python go_appengine/goapp test
-script: go_appengine/goapp build
+# script: go_appengine/goapp test
+script: execve go_appengine/goroot/bin/goapp build
