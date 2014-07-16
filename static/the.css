@@ -1,0 +1,20 @@
+.XOs{
+  width:180px;  
+  margin: 20px auto 0 auto;
+}
+.square{
+	height:50px;
+	width:50px;
+	margin:5px;
+	float:left;
+}
+.clickable{
+	background-color:#999;
+	cursor:pointer;
+}
+.x{
+	background-color: #333;
+}
+.o{
+	background-color: #DDD;
+}

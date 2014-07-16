@@ -1,0 +1,4 @@
+cron:
+- description: Clean Games Daily
+  url: /clean
+  schedule: every 24 hours
