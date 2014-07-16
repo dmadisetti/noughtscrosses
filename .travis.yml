@@ -5,4 +5,4 @@ python:
 install:
   - curl -O http://googleappengine.googlecode.com/files/google_appengine_1.8.9.zip && unzip -q google_appengine_1.8.9.zip
 # command to run tests
-script: echo "n" | python dev_appserver.py .
+script: echo "n" | python google_appengine/dev_appserver.py .
