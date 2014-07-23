@@ -1,7 +1,7 @@
 package game
 
 import(
-	"./symmetry"
+	"../game/symmetry"
     "time"
     "log"
     "strings"
