@@ -26,7 +26,6 @@ Objectives:
 
 Todo:
 
-- Break into correct packages
 - Clean
 - Learn from mistakes
 - Document???
