@@ -1,6 +1,5 @@
 package noughtscrosses
 import(
-    "./game"
     "net/http"
     "log"
     "fmt"
@@ -47,7 +46,7 @@ func mainHandle(w http.ResponseWriter, r *http.Request){
         fmt.Fprint(w, e)        
         return
     }
-    game := game.Create(c)
+    game := Create(c)
     err := t.Execute(w, game)
     if err !=nil{
         panic(err)
@@ -77,7 +76,7 @@ func postHandle(w http.ResponseWriter, r *http.Request){
     }
 
     // Process and respond
-    chosen, cat, lose, win := game.Process(c,token,m.Move)
+    chosen, cat, lose, win := Process(c,token,m.Move)
     w.Header().Set("Content-Type", "application/json")
     switch true{
         case cat: 

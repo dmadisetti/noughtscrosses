@@ -1,7 +1,6 @@
-package game
+package noughtscrosses
 
 import(
-	"./symmetry"
     "time"
     "log"
     "strings"
@@ -73,7 +72,7 @@ func Process(c appengine.Context,token int64,move byte)(chosen int, cat bool, lo
             if temp[i] == 0{
                 cat = false
                 temp[i] = 0x3
-                key = symmetry.Maximize(temp)
+                key = Maximize(temp)
                 if utility,id:=lookUp(c, key);utility >= maxUtility{
                     chosen = i
                     which = id

@@ -1,4 +1,4 @@
-package symmetry
+package noughtscrosses
 
 import("bytes")
 
