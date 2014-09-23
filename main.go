@@ -1,6 +1,6 @@
 package noughtscrosses
 import(
-    "./game"
+    "../noughtscrosses/game"
     "net/http"
     "log"
     "fmt"
