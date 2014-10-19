@@ -3,3 +3,4 @@ static/packages/
 *.deps
 *.map
 *.lock
+go_appengine*
