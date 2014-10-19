@@ -3,7 +3,7 @@ package tests
 import (
         "testing"
         "appengine/aetest"
-	    "net/http"
+        "net/http"
 )
 
 var inst aetest.Instance
@@ -24,10 +24,10 @@ func TestHandles(t *testing.T) {
 }
 
 func get(t *testing.T, location string) {
-	req, err := inst.NewRequest("GET", location, nil)
+    req, err := inst.NewRequest("GET", location, nil)
     if err != nil {
             t.Fatalf("Failed to create req: %v", err)
     }
-	resp, err := client.Do(req)
-	t.Log(resp)
+    resp, err := client.Do(req)
+    t.Log(resp)
 }
